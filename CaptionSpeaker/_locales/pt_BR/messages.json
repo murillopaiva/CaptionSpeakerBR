@@ -1,0 +1,65 @@
+{
+  "appDescription": {
+    "message": "CaptionSpeaker é uma extensão cromada que permite ouvir legendas em um idioma especificado quando elas são colocadas no youtube."
+  },
+  "PageActionDefaultTitle": {
+    "message": "Iniciar ou parar a legenda falando\n(Clique com o botão direito do mouse sobre a configuração e selecione \”Opções\")"
+  },
+  "KeyboardShortcutNameEnableEvent": {
+    "message": "Iniciar a fala"
+  },
+  "KeyboardShortcutNameDisableEvent": {
+    "message": "Parar a fala"
+  },
+  "OptionsPagePitchTitle": {
+    "message": "Tom"
+  },
+  "OptionsPageRateTitle": {
+    "message": "Ritmo"
+  },
+  "OptionsPageVolumeTitle": {
+    "message": "Volume"
+  },
+  "OptionsPageSampleTextTitle": {
+    "message": "Texto de exemplo da falo"
+  },
+  "OptionsPageSampleTextValue": {
+    "message": "Ainda que eu falasse as línguas dos homens e dos anjos, e não tivesse amor, seria como o metal que soa ou como o sino que tine."
+  },
+  "OptionsPageKeyboardShortcutsLinkText": {
+    "message": "Abrir configurações de atalhos de teclado"
+  },
+  "OptionsPageDonateText": {
+    "message": "Você pode ajudar a CaptionSpeaker doando:"
+  },
+  "OptionsPageIsRateMaxStrechText": {
+    "message": "Aumentar o limite de velocidade (obsoleto)"
+  },
+  "OptionsPageIsRateMaxStrechTextWarning": {
+    "message": "Alguns alto-falantes podem não ser capazes de ler em voz alta se uma certa velocidade for definida, ou a velocidade definida pode ser ignorada. Portanto, após ativar esta opção, sempre realize um teste de leitura e confirme que a leitura é realizada como pretendido."
+  },
+  "OptionsPageIsStopIfNewSpeech": {
+    "message": "Interromper o enunciado anterior quando um novo enunciado for feito (isso pode ser uma medida contra atrasos na leitura de legendas quando há uma grande quantidade de legendas)"
+  },
+  "OptionsPageIsDisableSpeechIfSameLocaleVideo": {
+    "message": "Se a legenda do mesmo idioma que o idioma de configuração do enunciado for padrão, não fale (pode não funcionar bem porque é uma função experimental)"
+  },
+  "OptionsPageIsDisableSpeechIfChaptionDisabled": {
+    "message": "Leia somente quando as legendas forem exibidas."
+  },
+  "OptionsPageAnnounceTitle": {
+    "message": "Obrigado por usar CaptionSpeaker."
+  },
+  "OptionsPageAnnounceMessage": {
+    "message": " Configurar a parte do alto-falante para o idioma e alto-falante apropriados, use \”Test\" para verificar se você pode falar, e então pressione \"Salvar\" para salvar as configurações. O CaptionSpeaker não funcionará se pelo menos isso não for feito."
+  },
+  "OptionsPageIsDisableSpeechEmbeddedSite": {
+    "message": "Impedir que funcione com vídeos incorporados"
+  },
+  "OptionsPageIsOverrideOriginalVolumeEnabled": {
+    "message": "Diminuir o volume do vídeo original durante a reprodução (especificar por proporção)"
+  },
+  "OptionsPageReleaseNotes": {
+    "message": "Versão 2.0.0: A variedade de suporte foi expandida para vídeos do youtube embutidos em outros sites (Se você não precisar, por favor, ative o botão \"Impedir que ele funcione com vídeos embutidos\"). Além disso, a fim de seguir a mudança de especificação da Extensão Cromo, fizemos o suporte para o manifesto v3. Com este suporte, todas as configurações salvas podem ser apagadas. Portanto, por favor, faça as configurações apropriadas nesta tela de configuração mais uma vez. Na versão 2. *, estamos tentando não alterar o comportamento em relação à Versão 1. *, mas como a implementação interna mudou significativamente, ela pode se comportar de forma diferente ou se tornar inoperante."
+  }
+}
