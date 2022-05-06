@@ -1,4 +1,4 @@
-CaptionSpeaker é uma extensão para o Google Chrome que permite que você ouça legendas colocadas no youtube em uma língua específica, fazendo-as falar.
+CaptionSpeaker é uma extensão cromada que permite que você ouça legendas colocadas no youtube em uma língua específica, fazendo-as falar.
 
 Está [publicamente disponível](https://chrome.google.com/webstore/detail/captionspeaker/infafaffjndfcflcoemolnggghgoodce) na loja virtual Chrome.
 
@@ -41,13 +41,13 @@ Primeiro lançamento.
 ## Versão 1.4.3
 - Problema fixo onde não era possível ler as legendas (28/11/2020).
 
-## Versão 2.0.0 (2022/04)
+## Versão 2.0.0 (04/2022)
 - Adicionado suporte para o Manifesto V3.
 - Canais (www.youtube.com/channel/...) e listas de reprodução (www.youtube.com/playlist?list=...) Resolvido um problema sem fala ao fazer a transição para uma página de vídeo a partir de
-- www.youtube.com以外のページへの埋込 youtube videos (iframes do tipo que www.youtube.com/embed... está incluído em um iframe) (note que o mini-jogador que aparece quando "adicionar à fila" no youtube não é suportado).
-- Adicionado o ajuste "Menor volume de vídeo original enquanto fala".
+- Incorporando vídeos do youtube em páginas diferentes do www.youtube.com (iframes do tipo www.youtube.com/embed... está incluído em um iframe) (note que o miniplayer que aparece quando "adicionar à fila" no youtube não é suportado).
+- Adicionado o ajuste "Reduzir o volume do vídeo original enquanto fala".
 
 # Problemas conhecidos.
 
-Em macOS Catalina, falar com o alto-falante padrão às vezes parece falhar.
-Isto pode ser evitado colocando um alto-falante que foi testado na página de ajustes e confirmado como realmente capaz de falar.
+Em macOS Catalina ou superior, às vezes, falar com o alto-falante padrão pode falhar.
+Isto pode ser contornado colocando na página de ajustes um alto-falante que foi testado e confirmado como realmente capaz de falar.
