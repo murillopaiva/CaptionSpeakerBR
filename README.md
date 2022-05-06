@@ -1,53 +1,53 @@
-CaptionSpeaker は youtube に設定された字幕のうち、指定された言語の字幕があった場合に、それを発話させる事で耳から聞くことができるようにする chrome extension です。
+CaptionSpeaker é uma extensão para o Google Chrome que permite que você ouça legendas colocadas no youtube em uma língua específica, fazendo-as falar.
 
-Chrome webstore で[公開されています](https://chrome.google.com/webstore/detail/captionspeaker/infafaffjndfcflcoemolnggghgoodce)。
+Está [publicamente disponível](https://chrome.google.com/webstore/detail/captionspeaker/infafaffjndfcflcoemolnggghgoodce) na loja virtual Chrome.
 
-# 使い方
+# Uso.
 
-1. CaptionSpeaker のアイコンを右クリックして設定(オプション)を開き、話者設定を適切に設定してsaveする(標準設定では発話に失敗する場合があるので必ず行って下さい)
-2. Youtube で字幕を発話させたい動画を開く
-3. CaptionSpeaker のアイコンをクリックして字幕の発話を有効にする(緑色のアイコンになっていればONになっています)
-4. 動画の再生を開始する(字幕が表示されるタイミングで発話が開始されます)
+1. Clique com o botão direito do mouse no ícone CaptionSpeaker, abra as configurações (opções), ajuste as configurações do alto-falante adequadamente e salve-o (certifique-se de fazer isso, pois pode falhar em falar com as configurações padrão). 2.
+2. Abra o vídeo que você quer que as legendas sejam faladas no Youtube. 3.
+Clique no ícone CaptionSpeaker para habilitar a legenda (se o ícone for verde, ele está ON). 4.
+4. Comece a reproduzir o vídeo (a fala começará quando as legendas forem exibidas).
 
-字幕の発話を停止したい場合は CaptionSpeaker のアイコンをクリックして字幕の発話をOFFにする事で停止できます。
+Se você quiser interromper o discurso de legenda, você pode interrompê-lo clicando no ícone CaptionSpeaker e desligando o discurso de legenda.
 
-発話時の話者は最初はブラウザの標準設定になっています。例えば日本語環境だと日本語話者になっているので、英語で発話させたい時などは設定ページ(アイコンを右クリックしてオプションを選択するか、アイコンをクリックしてOptionsを選択)で設定してください。
-設定ページでは読み上げの速度等も変更できます。
+O orador no momento da fala é a configuração padrão do navegador no início. Por exemplo, em um ambiente japonês, o falante está configurado para japonês, portanto, se você quiser falar em inglês, por favor, configure-o na página de configurações (clique com o botão direito no ícone e selecione Opções, ou clique no ícone e selecione Opções).
+Você também pode alterar a velocidade da fala na página de ajustes.
 
-発話時の話者の言語(ロケール)を変えると、その言語の字幕を発話するように努力します(時々失敗します)。
+Se você mudar o idioma (locale) do orador ao falar, ele tentará (às vezes sem sucesso) falar as legendas nesse idioma.
 
-# 更新履歴
+# Histórico de atualização.
 
-## Version 1.0
-最初のリリース
+## Versão 1.0
+Primeiro lançamento.
 
-## Version 1.1
-- 新しく発話する時に前の発話を止める オプションを追加
-- 発話設定の言語と同じ言語の字幕がdefaultの場合、発話をしない オプションを追加
+## Versão 1.1
+- Adicionada a opção de interromper o discurso anterior ao falar um novo discurso.
+- Adicionada a opção de não falar se o subtítulo padrão estiver no mesmo idioma que o idioma da configuração da fala.
 
-## Version 1.2
-- 読み上げをOFFにした時に、発話状態であれば発話をやめるように
-- 読み上げが少し遅れる場合がある問題に対処
+## Versão 1.2
+- Quando a leitura é desligada, a fala é interrompida se o usuário estiver no modo de fala.
+- Resolveu um problema em que a fala às vezes é ligeiramente retardada.
 
-## Version 1.3
-- 「発話設定の言語と同じ言語の字幕」の判定基準を少し変更
+## Versão 1.3
+- Ligeiramente mudou o critério para "Legendas no mesmo idioma que o idioma do cenário da fala".
 
-## Version 1.4
-- 「字幕が表示されている時だけ読み上げを行うようにする」設定項目を追加
+## Versão 1.4
+- Acrescentou um ajuste para "Ler em voz alta somente quando as legendas forem exibidas".
 
-## Version 1.4.2
-- 字幕を読み込めなくなっていた問題を修正(2020/11/26)
+## Versão 1.4.2
+- Resolvido um problema onde as legendas não podiam ser lidas (26/11/2020).
 
-## Version 1.4.3
-- 字幕を読み込めない場合が残っていた問題を修正(2020/11/28)
+## Versão 1.4.3
+- Problema fixo onde não era possível ler as legendas (28/11/2020).
 
-## Version 2.0.0 (2022/04)
-- Manifest V3 に対応させた
-- チャンネル(www.youtube.com/channel/...)やプレイリスト(www.youtube.com/playlist?list=...)から動画のページに遷移した時に発話しない問題を解消
-- www.youtube.com以外のページへの埋込 youtube動画(iframe で www.youtube.com/embed... が取り込まれるタイプのもの)に対応(なお、youtube内で「キューに追加」した時に表示されるミニプレイヤーには非対応です)
-- 「発話中に元動画の音量を下げる」設定を追加
+## Versão 2.0.0 (2022/04)
+- Adicionado suporte para o Manifesto V3.
+- Canais (www.youtube.com/channel/...) e listas de reprodução (www.youtube.com/playlist?list=...) Resolvido um problema sem fala ao fazer a transição para uma página de vídeo a partir de
+- www.youtube.com以外のページへの埋込 youtube videos (iframes do tipo que www.youtube.com/embed... está incluído em um iframe) (note que o mini-jogador que aparece quando "adicionar à fila" no youtube não é suportado).
+- Adicionado o ajuste "Menor volume de vídeo original enquanto fala".
 
-# 既知の問題
+# Problemas conhecidos.
 
-macOS Catalina では標準の話者での発話が失敗することがあるようです。
-設定ページでテスト発話させてみて、実際に発話できることを確認できた話者を設定することで回避することができます。
+Em macOS Catalina, falar com o alto-falante padrão às vezes parece falhar.
+Isto pode ser evitado colocando um alto-falante que foi testado na página de ajustes e confirmado como realmente capaz de falar.
