@@ -1,6 +1,6 @@
 {
   "appDescription": {
-    "message": "CaptionSpeaker é uma extensão cromada que permite ouvir legendas em um idioma especificado quando elas são colocadas no youtube."
+    "message": "CaptionSpeaker é uma extensão do Google Chrome que permite ouvir legendas em um idioma especificado quando elas são colocadas no youtube."
   },
   "PageActionDefaultTitle": {
     "message": "Iniciar ou parar a legenda falando\n(Clique com o botão direito do mouse sobre a configuração e selecione \”Opções\")"
